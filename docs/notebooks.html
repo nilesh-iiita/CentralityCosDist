@@ -484,8 +484,8 @@ document.write(`
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">HTML</span>
 
-<span class="n">Network_Centrality_File</span> <span class="o">=</span> <span class="s2">&quot;Network_Centrality.csv&quot;</span>
-<span class="n">Seed_File</span> <span class="o">=</span> <span class="s2">&quot;Seeds.tsv&quot;</span>
+<span class="n">Network_Centrality_File</span> <span class="o">=</span> <span class="s2">&quot;data/Network_Centrality.csv&quot;</span>
+<span class="n">Seed_File</span> <span class="o">=</span> <span class="s2">&quot;data/Seeds.tsv&quot;</span>
 
 
 <span class="n">df_centralites</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">Network_Centrality_File</span><span class="p">)</span>
@@ -636,16 +636,16 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;AT5G08670&#39;,
- &#39;AT1G63290&#39;,
- &#39;AT3G51840&#39;,
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;ATCG00480&#39;,
  &#39;AT1G09100&#39;,
- &#39;AT5G17310&#39;,
- &#39;AT3G05530&#39;,
- &#39;ATCG00480&#39;,
- &#39;AT3G01850&#39;,
+ &#39;AT5G08670&#39;,
+ &#39;AT3G03900&#39;,
  &#39;AT1G09770&#39;,
- &#39;AT3G03900&#39;]
+ &#39;AT1G63290&#39;,
+ &#39;AT3G05530&#39;,
+ &#39;AT3G01850&#39;,
+ &#39;AT5G17310&#39;,
+ &#39;AT3G51840&#39;]
 </pre></div>
 </div>
 </div>
@@ -737,16 +737,16 @@ Name: Similarity_score, dtype: float64
 </div>
 <div class="cell_output docutils container">
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>ID
-AT5G08670     7.5
-AT1G63290    11.5
-AT3G51840     3.0
-AT1G09100     2.0
-AT5G17310     5.0
-AT3G05530     4.0
 ATCG00480     6.0
-AT3G01850    11.5
-AT1G09770    25.0
+AT1G09100     2.0
+AT5G08670     7.5
 AT3G03900     1.0
+AT1G09770    25.0
+AT1G63290    11.5
+AT3G05530     4.0
+AT3G01850    11.5
+AT5G17310     5.0
+AT3G51840     3.0
 Name: Rank, dtype: float64
 </pre></div>
 </div>
@@ -833,7 +833,7 @@ notebook            6.5.3
 Python 3.11.0 (main, Mar  1 2023, 18:26:19) [GCC 11.2.0]
 Linux-5.15.90.1-microsoft-standard-WSL2-x86_64-with-glibc2.31
 -----
-Session information updated at 2023-03-27 16:40
+Session information updated at 2023-03-27 16:48
 </pre>
 </details></div></div>
 </div>
