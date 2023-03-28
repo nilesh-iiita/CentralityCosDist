@@ -1,5 +1,3 @@
-# Welcome to your Jupyter Book
-
 # CentralityCosDist
 ### Ranking network nodes based on their centrality measures
 
