@@ -1,5 +1,7 @@
 # CentralityCosDist
+
 ### Ranking network nodes based on their centrality measures
+![](https://img.shields.io/badge/doi-10.1111/pcmr.13169-blue)
 
 ## About
 
